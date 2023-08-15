@@ -35,7 +35,7 @@ pass_list = '''
 #HOST = '127.0.0.1'  # 监听地址，建议监听本地然后由web服务器反代
 #PORT = 80  # 监听端口
 config = Config()
-config.bind = ["0.0.0.0:840"]
+config.bind = ["127.0.0.1:80"]
 config.protocol = "h2"
 ASSET_URL = 'https://hunshcn.github.io/gh-proxy'  # 主页
 
